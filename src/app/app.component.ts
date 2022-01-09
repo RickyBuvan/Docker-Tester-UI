@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'Docker-Tester-UI';
+	title = 'Docker-Tester-UI';
+
+	collatzConjecture() {
+		window.open("http://localhost:8080/collatzConjecture/42");
+	}
 }
